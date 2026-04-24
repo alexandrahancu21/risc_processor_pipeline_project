@@ -1,0 +1,1 @@
+This project presents the microarchitecture of a simplified RISC (Reduced Instruction Set Computer) Processor, implemented through a 4-stage pipeline. The design is optimized for clarity, separating the combinational blocks from the storage elements (registers).
