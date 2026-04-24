@@ -1,0 +1,30 @@
+# Xilinx Vivado - Fisiere de ignorat
+
+# Foldere generate automat la sinteza, implementare si simulare
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+
+# Fisiere de jurnal (journal) si log-uri
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.vcd
+*.dir/
+
+# Fisiere de backup, crash sau temporare
+*~
+*.bak
+*.tmp
+*.dmp
+*.zip
+hs_err_pid*.log
+
+# Fisiere specifice sistemului de operare (Windows/Mac)
+Thumbs.db
+.DS_Store

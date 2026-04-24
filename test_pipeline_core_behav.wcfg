@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_pipeline_core_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_pipeline_core" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="310,987 ps"></ZoomStartTime>
+      <ZoomEndTime time="311,003 ps"></ZoomEndTime>
+      <Cursor1Time time="311,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="150"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/test_pipeline_core/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/pc" type="array">
+      <obj_property name="ElementShortName">pc[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/mem_read" type="logic">
+      <obj_property name="ElementShortName">mem_read</obj_property>
+      <obj_property name="ObjectShortName">mem_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/mem_write" type="logic">
+      <obj_property name="ElementShortName">mem_write</obj_property>
+      <obj_property name="ObjectShortName">mem_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/mem_data_out" type="array">
+      <obj_property name="ElementShortName">mem_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/mem_data_in" type="array">
+      <obj_property name="ElementShortName">mem_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/data_memory" type="array">
+      <obj_property name="ElementShortName">data_memory[0:9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[0:9][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/program_mem" type="array">
+      <obj_property name="ElementShortName">program_mem[0:31][15:0]</obj_property>
+      <obj_property name="ObjectShortName">program_mem[0:31][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/uut/ex_wb_alu_result" type="array">
+      <obj_property name="ElementShortName">ex_wb_alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_wb_alu_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline_core/uut/wb_final_data" type="array">
+      <obj_property name="ElementShortName">wb_final_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_final_data[31:0]</obj_property>
+   </wvobject>
+</wave_config>
